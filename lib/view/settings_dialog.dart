@@ -68,12 +68,11 @@ class SettingsDialog extends StatelessWidget {
         '${range.last}',
       ),
       activeColor: color,
-      onChanged: (values) =>
-          context.read<ColorCubit>().changeChannelRange(
-            channel,
-            values.start,
-            values.end,
-          ),
+      onChanged: (values) => context.read<ColorCubit>().changeChannelRange(
+        channel,
+        values.start,
+        values.end,
+      ),
     );
   }
 }

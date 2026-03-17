@@ -12,7 +12,7 @@ enum ColorChannel {
   green,
 
   /// Blue
-  blue
+  blue,
 }
 
 /// Cubit that manages the current color and RGB ranges

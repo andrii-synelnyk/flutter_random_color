@@ -33,8 +33,8 @@ class ColorView extends StatelessWidget {
                     alignment: .bottomCenter,
                     child: Text(
                       'RGB(${state.currentRed}, '
-                          '${state.currentGreen}, '
-                          '${state.currentBlue})',
+                      '${state.currentGreen}, '
+                      '${state.currentBlue})',
                       style: const TextStyle(fontSize: _rgbTextFontSize),
                     ),
                   ),
